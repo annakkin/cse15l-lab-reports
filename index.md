@@ -18,10 +18,14 @@ Week 2 CSE 15L Lab Session :)
 
 ------------------
 
-`Is this inline code?` let's see
+`Is this inline code?` 
+let's see
 
 ```
 # code block
 some statement 1
 some statement 2
 ```
+* add something locally through vscode
+
+* **WOW WOW**
