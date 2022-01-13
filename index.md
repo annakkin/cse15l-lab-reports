@@ -4,8 +4,9 @@ Week 2 CSE 15L Lab Session :)
 **BOLD**
 # Heading
 ## Another Heading
-[link] (http://google.com)
-![Image](http://url/a.png)
+
+[Link](google.com)
+![Image]()
 > Blockquote
 * a
 * b
