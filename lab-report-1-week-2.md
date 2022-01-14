@@ -6,7 +6,7 @@
 
 ### Part One: VSCode setup
 
-*Step 1: Installing VScode*
+#### *Step 1: Installing VScode*
 
 The download link is here: [VSCode](https://code.visualstudio.com/)  (remember to use Safari instead of Chrome!)
 
@@ -14,14 +14,13 @@ A successful download page should look like this:
 
 ![sc1](screenshot1.png)
 
-<br />
-
 ***
+
+<br />
 
 ### Part Two: Remote Access
 
-*Step 2: Remotely Connecting*
-<br />
+#### *Step 2: Remotely Connecting*
 
 First find your course account on [ETS](https://sdacs.ucsd.edu/~icc/index.php) and change your password to activate it. Record your course-specifc username (*cs15lwi22amg*).
 ![sc2](screenshot2.png)
@@ -29,12 +28,12 @@ First find your course account on [ETS](https://sdacs.ucsd.edu/~icc/index.php) a
 Then open VSCode terminal and type in `ssh <username>@ieng6.ucsd.edu`. Enter your password if required. If you successfully connect to ieng6 server, your terminal will show a message like this:
 ![sc3](screenshot3.png)
 
-<br />
-
 ***
 
+<br />
+
 ### Part Three: Commands
-*Step 3: Trying Some Commands*
+#### *Step 3: Trying Some Commands*
 
 After logging in, you can start with some simple commands:
 
@@ -42,17 +41,28 @@ After logging in, you can start with some simple commands:
 
 > `cd ~` directs you to home directory
 
+![sc4](screenshot4.png)
+
 > `ls` commands (`ls -lat`, `ls -a`, `ls /home/linux/ieng6/cs15lwi22/<username>` )show things in your current directory
+
+![sc5](screenshot5.png)
 
 > `cp /home/linux/ieng6/cs15lwi22/public/hello.txt ~/` copies the hello.txt file to your home directory
 
 > `cat /home/linux/ieng6/cs15lwi22/public/hello.txt` prints out the content of hello.txt
 
+(if hello.txt is some file that you have access to)
+
+![sc6](screenshot6.png)
+
 To log out: 
-> `exit`
+> type  `exit` or use Ctrl-D
 
-*Step 4: Moving Files with scp*
+![sc7](screenshot7.png)
 
-*Step 5: Trying Some Commands*
+#### *Step 4: Moving Files with `scp`*
 
-*Step 6: Trying Some Commands*
+
+#### *Step 5: Setting an SSH Key*
+
+#### *Step 6: Optimizing Remote Running*
