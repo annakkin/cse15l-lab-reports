@@ -61,8 +61,41 @@ To log out:
 ![sc7](screenshot7.png)
 
 #### *Step 4: Moving Files with `scp`*
+A java file WhereAmI.java is created on client (your laptop). It contains `getProperty` commands that returns your system property. To copy this file to ieng6 server, run `scp` command on your local machine.
 
+> `scp WhereAmI.java <username>@ieng6.ucsd.edu:~/`
+
+This is what you'll see if you compile&run the file locally, scp it, and compile&run it on server:
+
+![sc8](screenshot8.png)
 
 #### *Step 5: Setting an SSH Key*
 
+First, run `ssh-keygen` on your laptop . Go to `.ssh` directory. You'll see two files `id_rsa` and `id_rsa.pub` that contain *private* and *public* key respectively.
+
+![sc9](screenshot9.png)
+
+Then, ssh to server and create a new directory `.ssh` there with `mkdir .ssh`.
+
+![sc10](screenshot10.png)
+
+Log out and `scp` the public key to server `.ssh` directory.
+
+![sc11](screenshot11.png)
+
+This enables you to log in the server without password.
+
 #### *Step 6: Optimizing Remote Running*
+Here are some tips to improve efficiency:
+
+* add commands after `ssh`
+
+or
+
+* separate multiple commands with `;`
+
+or
+
+* combine commands with `" "`
+
+![sc12](screenshot12.png)
