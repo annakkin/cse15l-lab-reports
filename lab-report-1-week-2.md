@@ -1,9 +1,8 @@
-
 # Lab Report 1
 
-*VSCode setup, remote acess, and simple commands*
-
-
+#### *VSCode setup, remote acess, and simple commands* 
+<br />
+<br />
 
 ### Part One: Visual Studio Code
 
