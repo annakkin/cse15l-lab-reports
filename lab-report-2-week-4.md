@@ -47,4 +47,4 @@ The symptom I got before change is also incorrect output, as nothing should be p
 <br />
 <br />
 
-ote: to see all commits follow [this link](https://github.com/annakkin/markdown-parse/commits/main)
+note: to see all commits follow [this link](https://github.com/annakkin/markdown-parse/commits/main)
