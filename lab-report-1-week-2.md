@@ -1,6 +1,6 @@
 # Lab Report 1
 
-#### *VSCode setup, remote acess, and simple commands* 
+#### *VSCode setup, remote access, and simple commands* 
 <br />
 <br />
 
