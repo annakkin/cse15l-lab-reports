@@ -30,6 +30,8 @@ The symptom I got before change is an incorrect output, as for this file nothing
 
 The original code does not work for the case where there are text (or anything) between the close bracket and open paranthesis. This is not a proper format for link in markdown but cannot be recognized, as something is still printed. The correct format should be the open paranthesis right following the close bracket. By adding the new lines the code judges whether "(" is next to "]".
 
+<br />
+
 ### Issue Three
 
 ![sc](report2-5.png)
@@ -42,5 +44,7 @@ The symptom I got before change is also incorrect output, as nothing should be p
 
  The original code cannot differentiate the format of a link and an image. Nothing should be printed if it is an image. The new lines adds a condition to determine if there is an extra "! before "[". If it does, nothing will be added to the toReturn substring.
 
+<br />
+<br />
 
 ote: to see all commits follow [this link](https://github.com/annakkin/markdown-parse/commits/main)
