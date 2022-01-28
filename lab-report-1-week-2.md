@@ -99,3 +99,5 @@ or
 * combine commands with `" "`
 
 ![sc12](screenshot12.png)
+
+For the example above, if the commands are separated, there would be three keystrokes in total: ssh, pwd and ls. Under this specific case only one keystroke is needed, which saves two keystrokes. 
