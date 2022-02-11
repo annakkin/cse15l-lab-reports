@@ -3,13 +3,13 @@
 ### *scp -r command* 
 <br />
 
-1. copy the `markdown-parse` directory to ieng6 server with `scp -r`. It is in a recursive pattern. 
+(1) copy the `markdown-parse` directory to ieng6 server with `scp -r`. It is in a recursive pattern. 
 
 ![sc](3.1.png) (partially shown)
 
 <br />
 
-2. `ssh` onto the server, compile and run `MarkdownParseTest`
+(2) `ssh` onto the server, compile and run `MarkdownParseTest`
 
 The file compiles and runs, and all the tests pass. 
 
@@ -17,7 +17,7 @@ The file compiles and runs, and all the tests pass.
 
 <br />
 
-3. Combine `scp`, `ssh` and other commands on the server
+(3) Combine `scp`, `ssh` and other commands on the server
 
 ![sc](3.3.png)
 
