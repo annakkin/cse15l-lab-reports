@@ -47,13 +47,13 @@ This is because my implementation didn't deal with the new line character `\n` i
 
 ![sc](5.5.png)
 
-Implementation can be added after this part.
+Code blocks can be added after this part.
 
 <br />
 
 #### TEST 2: `578.md`
 
-For this test, our implementation is correct. 
+For this test, my implementation is correct. 
 
 My implementation gives `test-files/578.md []`. 
 
@@ -63,7 +63,7 @@ The provided implementation gives `test-files/578.md [/url]`.
 
 The actual output should be empty according to `578.html.test`.
 
-This is because my implementation didn't deal with the image format in markdown file. 
+This is because the provided implementation didn't deal with the image format in markdown file. 
 
 Implementation can be added to test the existence of `!` before the open bracket. If there is `!` it is not a valid link.
 
